@@ -24,9 +24,9 @@ public class PurchaseFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         Ebuy_store[] ebuy_store = new Ebuy_store[]{
                 new Ebuy_store("Laptop Bag", "$15.99", R.drawable.laptop_bag),
-                new Ebuy_store("Microsoft Surface Laptop", "$455.69", R.drawable.microsoft_surface_laptop),
+                new Ebuy_store("Microsoft Surface Laptop", "$455.69", R.drawable.tecno_spark7),
                 new Ebuy_store("Oppo reno 6", "$233.55", R.drawable.oppo_smartphone),
-                new Ebuy_store("Tecno Spark 7", "$210.99", R.drawable.tecno_spark7),
+                new Ebuy_store("Tecno Spark 7", "$210.99", R.drawable.spark),
                 new Ebuy_store("Travelling Suit Case", "$22.99", R.drawable.travelling_bag),
                 new Ebuy_store("32GB See Dete Flash", "$33.99", R.drawable.seedeteflash),
                 new Ebuy_store("Xiaomi 9C", "$133", R.drawable.redmie)
